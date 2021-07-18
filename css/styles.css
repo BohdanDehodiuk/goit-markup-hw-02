@@ -21,6 +21,7 @@
 body {
   background-color: #ffffff;
   color: #212121;
+  font-family: Roboto, sans-serif;
 }
 /* Убираэт у всех ссылок подчеркивание */
 ul {
@@ -29,6 +30,12 @@ ul {
 /* Стилизирует Лого */
 .nav-logo {
   text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .logo-web {
   color: #2196f3;
@@ -39,6 +46,11 @@ ul {
 /* Стилизирует ссылки в хедере */
 .nav-link {
   color: var(--link-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav-list .nav-link:hover,
 .nav-list .nav-link:focus {
@@ -54,6 +66,11 @@ ul {
 /* Стилизирует ссылки авторизации */
 .auth-link {
   color: var(--link-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .auth-link:hover,
@@ -64,9 +81,14 @@ ul {
 .auth-link {
   text-decoration: none;
 }
-
+/* Стилизирует h2 */
 .section-title {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 /* Стилизирует герои */
 .hero {
@@ -74,29 +96,63 @@ ul {
 }
 .hero-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .hero-btn {
   background-color: var(--btn-secondary-btg-color);
   color: var(--btn-secondary-text-color);
   cursor: pointer;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Стилизирует наши преимущества */
 .benefits-title {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .benefits-text {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 
 /* Стилизация наша команда */
 
 .team-title-secondary {
   color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 .team-text {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
 }
 /* Стилизация футтер */
 .footer {
@@ -110,9 +166,23 @@ ul {
 }
 .address-text {
   color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
 }
 .address-link {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+.address-item .address-link:hover,
+.address-item .address-link:focus {
+  color: var(--accent-link-color);
 }
 
 /* Стилизация филтра */
@@ -120,6 +190,12 @@ ul {
   background-color: var(--btn-primari-btg-color);
   color: var(--btn-primary-text-color);
   cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -130,9 +206,18 @@ ul {
 /* Стилизация портфолио */
 .portfolio-subtitle {
   color: var(--primary-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-text {
   color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
 }
 .portfolio-link {
   text-decoration: none;

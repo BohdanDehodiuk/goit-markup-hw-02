@@ -12,6 +12,10 @@
   --secondary-text-color: #757575;
   --link-color: #212121;
   --accent-link-color: #2196f3;
+  --btn-primari-btg-color: #f5f4fa;
+  --btn-secondary-btg-color: #2196f3;
+  --btn-primary-text-color: #212121;
+  --btn-secondary-text-color: #ffffff;
 }
 
 body {
@@ -37,8 +41,7 @@ ul {
   color: var(--link-color);
 }
 .nav-list .nav-link:hover,
-.nav-list .nav-link:focus,
-.nav-list .nav-link:active {
+.nav-list .nav-link:focus {
   color: var(--accent-link-color);
 }
 
@@ -47,12 +50,12 @@ ul {
 }
 /* Стилизирует ссылки авторизации */
 .auth-link {
-  color: #757575;
+  color: var(--link-color);
 }
 
 .auth-link:hover,
 .auth-link:focus {
-  color: #2196f3;
+  color: var(--accent-link-color);
 }
 
 .auth-link {
@@ -60,7 +63,7 @@ ul {
 }
 
 .section-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 /* Стилизирует герои */
 .hero {
@@ -70,27 +73,27 @@ ul {
   color: #ffffff;
 }
 .hero-btn {
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--btn-secondary-btg-color);
+  color: var(--btn-secondary-text-color);
   cursor: pointer;
 }
 
 /* Стилизирует наши преимущества */
 .benefits-title {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .benefits-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 
 /* Стилизация наша команда */
 
 .team-title-secondary {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .team-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 /* Стилизация футтер */
 .footer {
@@ -111,23 +114,22 @@ ul {
 
 /* Стилизация филтра */
 .filter-btn {
-  background-color: #f5f4fa;
-  color: #212121;
+  background-color: var(--btn-primari-btg-color);
+  color: var(--btn-primary-text-color);
   cursor: pointer;
 }
 .filter-btn:hover,
-.filter-btn:focus,
-.filter-btn:active {
-  background-color: #2196f3;
-  color: #ffffff;
+.filter-btn:focus {
+  background-color: var(--btn-secondary-btg-color);
+  color: var(--btn-secondary-text-color);
 }
 
 /* Стилизация портфолио */
 .portfolio-subtitle {
-  color: #212121;
+  color: var(--primary-text-color);
 }
 .portfolio-text {
-  color: #757575;
+  color: var(--secondary-text-color);
 }
 .portfolio-link {
   text-decoration: none;

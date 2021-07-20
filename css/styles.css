@@ -10,28 +10,31 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --address-text-color:#ffffff;
-  --auth-link-color:#757575;
+  --address-text-color: #ffffff;
+  --auth-link-color: #757575;
   --link-color: #212121;
   --accent-link-color: #2196f3;
-  --address-link-color:rgba(255, 255, 255, 0.6);
+  --address-link-color: rgba(255, 255, 255, 0.6);
   --btn-primari-btg-color: #f5f4fa;
   --btn-secondary-btg-color: #2196f3;
   --btn-primary-text-color: #212121;
   --btn-secondary-text-color: #ffffff;
-  --primary-background-color:#ffffff;
-  --secondary-background-color:#2f303a;
-  --logo-web-color:#2196f3;
-  --logo-studio-footer:#ffffff;
-  --logo-studio-header:#212121;
-  --hero-title-color:#ffffff;
-  
+  --primary-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --background-team-color: #f5f4fa;
+  --logo-web-color: #2196f3;
+  --logo-studio-footer: #ffffff;
+  --logo-studio-header: #212121;
+  --hero-title-color: #ffffff;
 }
 
 body {
-  background-color: v(--primary-background-color);
+  background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.03em;
 }
 /* Убираэт точки у всех списков */
 ul {
@@ -42,10 +45,8 @@ ul {
   text-decoration: none;
   font-family: Raleway, sans-serif;
   font-style: normal;
-  font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .nav-logo {
   color: var(--logo-web-color);
@@ -58,7 +59,6 @@ ul {
   color: var(--link-color);
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -78,7 +78,6 @@ ul {
   color: var(--auth-link-color);
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -91,15 +90,7 @@ ul {
 .auth-link {
   text-decoration: none;
 }
-/* Стилизирует h2 */
-.section-title {
-  color: var(--primary-text-color);
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
 /* Стилизирует герои */
 .hero {
   background-color: var(--secondary-background-color);
@@ -118,7 +109,6 @@ ul {
   color: var(--btn-secondary-text-color);
   cursor: pointer;
   font-style: normal;
-  font-weight: bold;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -126,14 +116,17 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 }
-
+/* Стилизирует h2 */
+.section-title {
+  color: var(--primary-text-color);
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
 /* Стилизирует наши преимущества */
 .benefits-title {
   color: var(--primary-text-color);
-  font-weight: bold;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -141,20 +134,20 @@ ul {
   color: var(--secondary-text-color);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 
 /* Стилизация наша команда */
 
+.section-team {
+  background-color: var(--background-team-color);
+}
 .team-title-secondary {
   color: var(--primary-text-color);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 .team-text {
   color: var(--secondary-text-color);
@@ -162,7 +155,6 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
 }
 /* Стилизация футтер */
 .footer {
@@ -178,17 +170,13 @@ ul {
   color: var(--address-text-color);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .address-link {
   color: var(--address-link-color);
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
 }
 .address-item .address-link:hover,
 .address-item .address-link:focus {
@@ -208,7 +196,6 @@ ul {
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -219,7 +206,6 @@ ul {
 /* Стилизация портфолио */
 .portfolio-subtitle {
   color: var(--primary-text-color);
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -230,7 +216,6 @@ ul {
   font-weight: normal;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
 }
 .portfolio-link {
   text-decoration: none;
